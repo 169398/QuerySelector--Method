@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 25px;
+}
+
+.container {
+  display: none;
+}
+
+.container.show {
+  display: block;
+  font-size: 1.2rem;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.about {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #8a2be2;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+}
+
+.about:hover {
+  background-color: #5a1d94;
+}
