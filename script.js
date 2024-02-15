@@ -24,3 +24,6 @@ about.addEventListener('click',()=>{
         list.style.backgroundColor = shuffledColors[index];
     });
 });
+
+home = document.querySelector ('.home');
+console.log(home);
