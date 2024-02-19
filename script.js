@@ -14,7 +14,7 @@ function shuffleArray(arr){
     }
     return arr;
 }
- 
+ //An algorithmn was used for this
 
 about.addEventListener('click',()=>{
     const shuffledColors = shuffleArray(lightColorArr);
@@ -26,4 +26,11 @@ about.addEventListener('click',()=>{
 });
 
 home = document.querySelector ('.home');
+
+const home= home.addEventListener("click");
 console.log(home);
+
+
+
+
+
