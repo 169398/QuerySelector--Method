@@ -12,7 +12,9 @@ h1 {
 
 h2 {
   margin-top: 25px;
+  font-size: clamp (1.5rem, 5vw, 2rem);
 }
+
 
 .container {
   display: none;
