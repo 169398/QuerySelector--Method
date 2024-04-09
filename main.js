@@ -6,4 +6,10 @@ document.getElementById("form").onsubmit = function() {
         alert('Thankyou for the feedback')
     }
 
+
 }
+var userInput=prompt('Enter an interger')
+var stringValue=45;
+var age = parseInt(stringValue);
+
+input !== integer ? alert("please enter an integer") : "";
