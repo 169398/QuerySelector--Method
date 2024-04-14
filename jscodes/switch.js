@@ -18,3 +18,39 @@ switch(b){
 
 
 }
+
+
+if(browser == 'edge'){
+    alert('Bro! you are on edge');
+}
+else if(browser == 'chrome'
+|| browser==
+'firefox'
+|| browser==
+'Safari' 
+|| browser=='Opera' )
+{
+    alert('Okay dude ! we support these browsers too');
+
+}
+else{
+    alert('We hope this page is okay!');
+}
+
+
+let a =+prompt('a?','');
+switch(a){
+    case '0':
+        alert('0')
+        break;
+        case '1':
+            alert ('1');
+            break;
+            case '2':
+                case '3':
+                alert('2,3')
+                break;
+                default:
+                    alert('number does not exist');
+
+};
