@@ -90,7 +90,7 @@ function  min(a,b){
       }
     
       return result;
-    }
+    
 
 
  let x= prompt('x?','');
